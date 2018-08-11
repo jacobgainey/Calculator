@@ -14,12 +14,12 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="197" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="0.0" y="656" width="159" height="80"/>
+                                <rect key="frame" x="0.0" y="488" width="159" height="80"/>
                                 <color key="backgroundColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
                                 <state key="normal" title="0">
@@ -35,11 +35,11 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="199" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" tag="1">
-                                <rect key="frame" x="0.0" y="575" width="79" height="80"/>
-                                <color key="backgroundColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
+                                <rect key="frame" x="0.0" y="407" width="79" height="80"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.91764705882352937" green="0.91764705882352937" blue="0.91764705882352937" alpha="1"/>
                                 <state key="normal" title="1">
-                                    <color key="titleColor" colorSpace="calibratedWhite" white="0" alpha="1"/>
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
                                 </state>
                                 <connections>
                                     <action selector="Number_TouchUpInside:" destination="201" id="200" eventType="touchUpInside"/>
@@ -51,14 +51,94 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="202" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" tag="2">
-                                <rect key="frame" x="80" y="575" width="79" height="80"/>
-                                <color key="backgroundColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
+                                <rect key="frame" x="80" y="407" width="79" height="80"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.91764705882352937" green="0.91764705882352937" blue="0.91764705882352937" alpha="1"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
                                 <state key="normal" title="2">
-                                    <color key="titleColor" colorSpace="calibratedWhite" white="0" alpha="1"/>
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
                                 </state>
                                 <connections>
                                     <action selector="Number_TouchUpInside:" destination="204" id="203" eventType="touchUpInside"/>
+                                </connections>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="206" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" tag="3">
+                                <rect key="frame" x="160" y="407" width="79" height="80"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.91764705882352937" green="0.91764705882352937" blue="0.91764705882352937" alpha="1"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <state key="normal" title="3">
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="Number_TouchUpInside:" destination="208" id="207" eventType="touchUpInside"/>
+                                </connections>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="209" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" tag="2">
+                                <rect key="frame" x="240" y="407" width="79" height="80"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.32156862745098042" green="0.10588235294117647" blue="0.5725490196078431" alpha="1"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <state key="normal" title="+">
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="Number_TouchUpInside:" destination="211" id="210" eventType="touchUpInside"/>
+                                </connections>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="212" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" tag="4">
+                                <rect key="frame" x="0.0" y="326" width="79" height="80"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.91764705882352937" green="0.91764705882352937" blue="0.91764705882352937" alpha="1"/>
+                                <state key="normal" title="4">
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="Number_TouchUpInside:" destination="214" id="213" eventType="touchUpInside"/>
+                                </connections>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="215" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" tag="5">
+                                <rect key="frame" x="80" y="326" width="79" height="80"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.91764705882352937" green="0.91764705882352937" blue="0.91764705882352937" alpha="1"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <state key="normal" title="5">
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="Number_TouchUpInside:" destination="217" id="216" eventType="touchUpInside"/>
+                                </connections>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="218" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" tag="6">
+                                <rect key="frame" x="160" y="326" width="79" height="80"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.91764705882352937" green="0.91764705882352937" blue="0.91764705882352937" alpha="1"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <state key="normal" title="6">
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="Number_TouchUpInside:" destination="220" id="219" eventType="touchUpInside"/>
                                 </connections>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
