@@ -6,6 +6,11 @@ namespace Calculator
 {
     public partial class ViewController : UIViewController
     {
+        partial void Number_TouchUpInside(UIButton sender)
+        {
+            throw new NotImplementedException();
+        }
+
         protected ViewController(IntPtr handle) : base(handle)
         {
             // Note: this .ctor should not contain any initialization logic.
