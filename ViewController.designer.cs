@@ -15,7 +15,23 @@ namespace Calculator
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton button { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIButton number { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel operation { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel screen { get; set; }
+
+        [Action ("Button_TouchUpInside:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void Button_TouchUpInside (UIKit.UIButton sender);
 
         [Action ("Number_TouchUpInside:")]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -23,9 +39,24 @@ namespace Calculator
 
         void ReleaseDesignerOutlets ()
         {
+            if (button != null) {
+                button.Dispose ();
+                button = null;
+            }
+
             if (number != null) {
                 number.Dispose ();
                 number = null;
+            }
+
+            if (operation != null) {
+                operation.Dispose ();
+                operation = null;
+            }
+
+            if (screen != null) {
+                screen.Dispose ();
+                screen = null;
             }
         }
     }

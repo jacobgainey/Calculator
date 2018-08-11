@@ -14,16 +14,16 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" customColorSpace="sRGB" colorSpace="calibratedWhite" white="0.333333333333333" alpha="1"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="197" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
                                 <rect key="frame" x="0.0" y="488" width="159" height="80"/>
-                                <color key="backgroundColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.91764705882352937" green="0.91764705882352937" blue="0.91764705882352937" alpha="1"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
                                 <state key="normal" title="0">
-                                    <color key="titleColor" colorSpace="calibratedWhite" white="0" alpha="1"/>
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
                                 </state>
                                 <connections>
                                     <action selector="Number_TouchUpInside:" destination="BYZ-38-t0r" id="198" eventType="touchUpInside"/>
@@ -43,6 +43,7 @@
                                 </state>
                                 <connections>
                                     <action selector="Number_TouchUpInside:" destination="201" id="200" eventType="touchUpInside"/>
+                                    <action selector="Number_TouchUpInside:" destination="BYZ-38-t0r" id="501" eventType="touchUpInside"/>
                                 </connections>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
@@ -59,6 +60,7 @@
                                 </state>
                                 <connections>
                                     <action selector="Number_TouchUpInside:" destination="204" id="203" eventType="touchUpInside"/>
+                                    <action selector="Number_TouchUpInside:" destination="BYZ-38-t0r" id="502" eventType="touchUpInside"/>
                                 </connections>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
@@ -75,6 +77,7 @@
                                 </state>
                                 <connections>
                                     <action selector="Number_TouchUpInside:" destination="208" id="207" eventType="touchUpInside"/>
+                                    <action selector="Number_TouchUpInside:" destination="BYZ-38-t0r" id="503" eventType="touchUpInside"/>
                                 </connections>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
@@ -82,7 +85,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="209" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" tag="2">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="209" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" tag="17">
                                 <rect key="frame" x="240" y="407" width="79" height="80"/>
                                 <color key="backgroundColor" colorSpace="calibratedRGB" red="0.32156862745098042" green="0.10588235294117647" blue="0.5725490196078431" alpha="1"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
@@ -91,6 +94,7 @@
                                 </state>
                                 <connections>
                                     <action selector="Number_TouchUpInside:" destination="211" id="210" eventType="touchUpInside"/>
+                                    <action selector="Button_TouchUpInside:" destination="BYZ-38-t0r" id="516" eventType="touchUpInside"/>
                                 </connections>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
@@ -107,6 +111,7 @@
                                 </state>
                                 <connections>
                                     <action selector="Number_TouchUpInside:" destination="214" id="213" eventType="touchUpInside"/>
+                                    <action selector="Number_TouchUpInside:" destination="BYZ-38-t0r" id="504" eventType="touchUpInside"/>
                                 </connections>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
@@ -123,6 +128,7 @@
                                 </state>
                                 <connections>
                                     <action selector="Number_TouchUpInside:" destination="217" id="216" eventType="touchUpInside"/>
+                                    <action selector="Number_TouchUpInside:" destination="BYZ-38-t0r" id="505" eventType="touchUpInside"/>
                                 </connections>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
@@ -139,6 +145,207 @@
                                 </state>
                                 <connections>
                                     <action selector="Number_TouchUpInside:" destination="220" id="219" eventType="touchUpInside"/>
+                                    <action selector="Number_TouchUpInside:" destination="BYZ-38-t0r" id="506" eventType="touchUpInside"/>
+                                </connections>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="225" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" tag="16">
+                                <rect key="frame" x="240" y="326" width="79" height="80"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.32156862745098042" green="0.10588235294117647" blue="0.5725490196078431" alpha="1"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <state key="normal" title="-">
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="Number_TouchUpInside:" destination="227" id="226" eventType="touchUpInside"/>
+                                    <action selector="Button_TouchUpInside:" destination="BYZ-38-t0r" id="515" eventType="touchUpInside"/>
+                                </connections>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="228" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" tag="7">
+                                <rect key="frame" x="0.0" y="245" width="79" height="80"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.91764705882352937" green="0.91764705882352937" blue="0.91764705882352937" alpha="1"/>
+                                <state key="normal" title="7">
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="Number_TouchUpInside:" destination="230" id="229" eventType="touchUpInside"/>
+                                    <action selector="Number_TouchUpInside:" destination="BYZ-38-t0r" id="507" eventType="touchUpInside"/>
+                                </connections>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="231" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" tag="8">
+                                <rect key="frame" x="80" y="245" width="79" height="80"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.91764705882352937" green="0.91764705882352937" blue="0.91764705882352937" alpha="1"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <state key="normal" title="8">
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="Number_TouchUpInside:" destination="233" id="232" eventType="touchUpInside"/>
+                                    <action selector="Number_TouchUpInside:" destination="BYZ-38-t0r" id="508" eventType="touchUpInside"/>
+                                </connections>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="234" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" tag="9">
+                                <rect key="frame" x="160" y="245" width="79" height="80"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.91764705882352937" green="0.91764705882352937" blue="0.91764705882352937" alpha="1"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <state key="normal" title="9">
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="Number_TouchUpInside:" destination="236" id="235" eventType="touchUpInside"/>
+                                    <action selector="Number_TouchUpInside:" destination="BYZ-38-t0r" id="509" eventType="touchUpInside"/>
+                                </connections>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="237" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" tag="15">
+                                <rect key="frame" x="240" y="245" width="79" height="80"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.32156862745098042" green="0.10588235294117647" blue="0.5725490196078431" alpha="1"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <state key="normal" title="x">
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="Number_TouchUpInside:" destination="239" id="238" eventType="touchUpInside"/>
+                                    <action selector="Button_TouchUpInside:" destination="BYZ-38-t0r" id="514" eventType="touchUpInside"/>
+                                </connections>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="240" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" tag="11">
+                                <rect key="frame" x="0.0" y="164" width="79" height="80"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <color key="backgroundColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
+                                <state key="normal" title="C">
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="Number_TouchUpInside:" destination="242" id="241" eventType="touchUpInside"/>
+                                    <action selector="Button_TouchUpInside:" destination="BYZ-38-t0r" id="510" eventType="touchUpInside"/>
+                                </connections>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="243" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" tag="12">
+                                <rect key="frame" x="80" y="164" width="79" height="80"/>
+                                <color key="backgroundColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <state key="normal" title="+/-">
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="Number_TouchUpInside:" destination="245" id="244" eventType="touchUpInside"/>
+                                    <action selector="Button_TouchUpInside:" destination="BYZ-38-t0r" id="511" eventType="touchUpInside"/>
+                                </connections>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="246" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" tag="13">
+                                <rect key="frame" x="160" y="164" width="79" height="80"/>
+                                <color key="backgroundColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <state key="normal" title="%">
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="Number_TouchUpInside:" destination="248" id="247" eventType="touchUpInside"/>
+                                    <action selector="Button_TouchUpInside:" destination="BYZ-38-t0r" id="512" eventType="touchUpInside"/>
+                                </connections>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="249" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" tag="14">
+                                <rect key="frame" x="240" y="164" width="79" height="80"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.32156862745098042" green="0.10588235294117647" blue="0.5725490196078431" alpha="1"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <state key="normal" title="/">
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="Number_TouchUpInside:" destination="251" id="250" eventType="touchUpInside"/>
+                                    <action selector="Button_TouchUpInside:" destination="BYZ-38-t0r" id="513" eventType="touchUpInside"/>
+                                </connections>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="252" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" tag="18">
+                                <rect key="frame" x="240" y="488" width="79" height="80"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.55294117647058827" green="0.97647058823529409" blue="0" alpha="1"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <state key="normal" title="=">
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="Number_TouchUpInside:" destination="254" id="253" eventType="touchUpInside"/>
+                                    <action selector="Button_TouchUpInside:" destination="BYZ-38-t0r" id="260" eventType="touchUpInside"/>
+                                </connections>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All your base are belongs to us!" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="258" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="16" y="135" width="284" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1234567890" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="259" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="16" y="39" width="288" height="82"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <color key="textColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="517" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" tag="10">
+                                <rect key="frame" x="160" y="488" width="79" height="80"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.91764705882352937" green="0.91764705882352937" blue="0.91764705882352937" alpha="1"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <state key="normal" title=".">
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="Number_TouchUpInside:" destination="519" id="518" eventType="touchUpInside"/>
+                                    <action selector="Number_TouchUpInside:" destination="521" id="520" eventType="touchUpInside"/>
+                                    <action selector="Number_TouchUpInside:" destination="BYZ-38-t0r" id="523" eventType="touchUpInside"/>
                                 </connections>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
@@ -150,6 +357,26 @@
                     </view>
                     <connections>
                         <outlet property="number" destination="197" id="name-outlet-197"/>
+                        <outlet property="operation" destination="258" id="name-outlet-258"/>
+                        <outlet property="screen" destination="259" id="name-outlet-259"/>
+                        <outlet property="button" destination="240" id="name-outlet-240"/>
+                        <outlet property="button" destination="243" id="name-outlet-243"/>
+                        <outlet property="button" destination="246" id="name-outlet-246"/>
+                        <outlet property="button" destination="249" id="name-outlet-249"/>
+                        <outlet property="button" destination="237" id="name-outlet-237"/>
+                        <outlet property="button" destination="225" id="name-outlet-225"/>
+                        <outlet property="button" destination="209" id="name-outlet-209"/>
+                        <outlet property="button" destination="252" id="name-outlet-252"/>
+                        <outlet property="number" destination="199" id="name-outlet-199"/>
+                        <outlet property="number" destination="202" id="name-outlet-202"/>
+                        <outlet property="number" destination="206" id="name-outlet-206"/>
+                        <outlet property="number" destination="212" id="name-outlet-212"/>
+                        <outlet property="number" destination="215" id="name-outlet-215"/>
+                        <outlet property="number" destination="218" id="name-outlet-218"/>
+                        <outlet property="number" destination="228" id="name-outlet-228"/>
+                        <outlet property="number" destination="231" id="name-outlet-231"/>
+                        <outlet property="number" destination="234" id="name-outlet-234"/>
+                        <outlet property="number" destination="517" id="name-outlet-517"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
